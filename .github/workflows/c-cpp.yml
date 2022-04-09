@@ -96,3 +96,6 @@ jobs:
       run: make check --jobs=`nproc`
     - name: make distcheck
       run: make distcheck --jobs=`nproc`
+    - name: check files
+      run: |
+        ls .
